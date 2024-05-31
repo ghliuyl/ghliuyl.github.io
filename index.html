@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        header img {
+            width: 150px;
+            border-radius: 50%;
+        }
+
+        header h1 {
+            margin: 20px 0 10px;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #777;
+        }
+
+        section {
+            margin: 40px 0;
+        }
+
+        section h2 {
+            font-size: 2em;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .project {
+            flex: 1 1 calc(50% - 20px);
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .project h3 {
+            margin-top: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #777;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="你的头像链接" alt="头像">
+            <h1>你的名字</h1>
+            <p>你的职业或头衔</p>
+        </header>
+
+        <section id="about">
+            <h2>关于我</h2>
+            <p>这里写一段关于你的介绍。你可以介绍你的背景、兴趣爱好、职业经历等。</p>
+        </section>
+
+        <section id="resume">
+            <h2>简历</h2>
+            <p>你可以在这里提供你的简历下载链接，或者直接展示你的教育背景、工作经历等。</p>
+        </section>
+
+        <section id="projects">
+            <h2>项目</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>项目名称 1</h3>
+                    <p>项目简介，描述你在该项目中的角色和贡献。</p>
+                </div>
+                <div class="project">
+                    <h3>项目名称 2</h3>
+                    <p>项目简介，描述你在该项目中的角色和贡献。</p>
+                </div>
+                <!-- 可以添加更多项目 -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>联系方式</h2>
+            <p>你可以在这里提供你的电子邮件地址、电话或社交媒体链接。</p>
+            <p>电子邮件: <a href="mailto:你的邮箱地址">你的邮箱地址</a></p>
+            <p>LinkedIn: <a href="你的LinkedIn链接">你的LinkedIn</a></p>
+            <!-- 可以添加更多联系方式 -->
+        </section>
+
+        <footer>
+            <p>© 2024 你的名字. 保留所有权利.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
